@@ -2,6 +2,7 @@
 layout: default
 ---
 **Presenter: Harrison Dekker, University of Rhode Island Libraries**
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
