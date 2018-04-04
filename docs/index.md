@@ -22,8 +22,9 @@ During the talk, the audience will have access to my RStudio Server so only a we
 * kableExtra
 
 ## Schedule
+
 | Description                         | Time         |
-|:----------------------------------- |:-------------|
+|:------------------------------------|:-------------|
 | Setup                               | 5 minutes    |
 | Motivation for literate programming | 5 minutes    |
 | RStudio + RMarkdown + knitr         | 5 minutes    |
