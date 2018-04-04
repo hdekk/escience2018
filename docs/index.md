@@ -21,6 +21,10 @@ During the talk, the audience will have access to my RStudio Server so only a we
 * knitr
 * kableExtra
 
+## Course materials
+* [GitHub repository](https://github.com/hdekk/escience2018)
+* [HTML version of slides]()
+
 ## Schedule
 
 | Description                         | Time         |

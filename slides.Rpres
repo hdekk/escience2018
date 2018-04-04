@@ -54,16 +54,77 @@ R + Markdown
 ========================================================
 type:section
 
-R
+RStudio
 ========================================================
+RStudio makes R, the popular open source software environment for statistical computing and graphics, easier to use by providing a code editor, debugging and visualization tools, and much more. 
 
 
 Markdown
 ========================================================
+Easy-to-write plain text markup for formatting documents and reports. For example:
+### Emphasis
+```
+*italic*     **bold**
+```
+### Headers
+```
+# Header 1
+## Header 2
+### Header 3
+```
+Markdown output 
+========================================================
+Easy-to-write plain text markup for formatting documents and reports. For example:
+### Emphasis
+*italic*     **bold**
 
+### Headers
+# Header 1
+## Header 2
+### Header 3
 
 RMarkdown
 ========================================================
+RMarkdown extends Markdown by allowing the evaluation and output of code chunks,
+<pre>
+## Results
+Let's look at summary of our data.
+```{r eval=FALSE}
+summary(cars$dist)
+summary(cars$speed)
+```
+</pre>
+or LaTeX
+<pre>
+$$
+\begin{equation*}
+|x|=
+\begin{cases} x & \text{if $x\ge 0$,} \\\\
+-x &\text{if $x\lt 0$.}
+\end{cases}
+\end{equation*}
+$$
+</pre>
+
+RMarkdown R output
+========================================================
+## Results
+Let's look at summary of our data.
+```{r eval=TRUE}
+summary(cars$dist)
+summary(cars$speed)
+```
+
+RMarkdown LaTeX output
+========================================================
+$$
+\begin{equation*}
+|x|=
+\begin{cases} x & \text{if $x\ge 0$,} \\\\
+-x &\text{if $x\lt 0$.}
+\end{cases}
+\end{equation*}
+$$
 
 Interactive knitr document
 ========================================================
@@ -118,9 +179,3 @@ Code block below. Just affects formatting here.
 x <- 3 * 4
 ```
 
-Slide With Plot
-========================================================
-
-```{r, echo=FALSE}
-plot(cars)
-```
