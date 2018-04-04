@@ -1,5 +1,6 @@
 ---
-title: This the title
+title: Facilitating Reproducibility and Collaboration with Literate Programming
+description: A talk presented at e-Science Symposium 2018, University of Massachusetts Medical School, Worcester MA - April 5, 2018
 author: Harrison Dekker
 layout: default
 ---
