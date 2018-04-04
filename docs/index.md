@@ -1,4 +1,6 @@
 ---
+title: This the title
+author: Harrison Dekker
 layout: default
 ---
 
