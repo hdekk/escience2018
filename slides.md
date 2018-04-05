@@ -6,9 +6,9 @@ transition: fade
 
 Getting Started
 ========================================================
-This is a *hands on* demo. Slides and supplementary materials are available at <https://support.rstudio.com/hc/en-us/articles/200486468>. We'll be using RStudio, but to save you the trouble of installing it, I've set up RStudio Server accounts for this workshop. The server will only be accessible today, so if you want to try out the code later, you'll need to either install RStudio or use [RStudio.Cloud]<https://rstudio.cloud>.
+This is a *hands on* demo. Slides and supplementary materials are available at <https://github.com/hdekk/escience2018>. We'll be using RStudio, but to save you the trouble of installing it, I've set up RStudio Server accounts for this workshop. The server will only be accessible today, so if you want to try out the code later, you'll need to either install RStudio or use [RStudio.Cloud](https://rstudio.cloud).
 
-I'm passing around a sheet with detail. Choose a username and password, then open the provided url in a web browser. If you have RStudio installed locally, you can use that instead.
+I'm passing around a sheet with login information. Choose a username and password, then open the provided url in a web browser. 
 
 Cloning from GitHub
 ========================================================
